@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{6087f8fa-713f-4e95-8f8f-37bd56783a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NN">
+      <UniqueIdentifier>{5dbb345a-fda9-4725-8a31-f52aa95c0f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bayes">
+      <UniqueIdentifier>{1f28eab3-4e72-404d-a3a1-139585d4ffce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Database">
+      <UniqueIdentifier>{84883c4e-de3b-429b-8c56-cce2c27c88b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{218847ed-4442-4177-8f85-8b6d2c5b658e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NN\layer">
+      <UniqueIdentifier>{808eba31-c32e-4f98-ab57-484af1040c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KNN">
+      <UniqueIdentifier>{4186a8ac-0998-4f91-96fb-4630eff95da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KNN">
+      <UniqueIdentifier>{936dd558-b588-4299-bea5-d606a0c3ed4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bayes">
+      <UniqueIdentifier>{d0def941-ddaa-4c02-9f7a-7426393f1804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Database">
+      <UniqueIdentifier>{9acf1ad4-fb40-4f46-91bc-2ba8df4969b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NN">
+      <UniqueIdentifier>{8aa786a7-96f8-4548-91be-3b0900e1c564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NN\layer">
+      <UniqueIdentifier>{63f85313-72b2-40ca-bace-9f4b6278eff5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\titanic.dat">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\NN\Network.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\DataBase\DataBase.h">
+      <Filter>Header Files\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Object\D_Passerger.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Object\Passenger.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="header\UtilNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\BackPropagation.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\NetworkTrainer.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Bayes\NaiveBayesClassifier.h">
+      <Filter>Header Files\Bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\Neuron.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\layer\Layer.h">
+      <Filter>Header Files\NN\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\layer\HiddenLayer.h">
+      <Filter>Header Files\NN\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\layer\DataLayer.h">
+      <Filter>Header Files\NN\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\layer\OutputLayer.h">
+      <Filter>Header Files\NN\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\OnlineTrainer.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\KNN\KNN_Classifier.h">
+      <Filter>Header Files\KNN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\TrainMethod.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NN\Random_BackPropagation.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Database\DataBase.cpp">
+      <Filter>Source Files\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KNN\KNN_Classifier.cpp">
+      <Filter>Source Files\KNN</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bayes\NaiveBayesClassifier.cpp">
+      <Filter>Source Files\Bayes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NN\layer\Layer.cpp">
+      <Filter>Source Files\NN\layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

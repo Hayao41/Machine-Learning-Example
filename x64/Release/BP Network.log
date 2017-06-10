@@ -1,0 +1,47 @@
+﻿Build started 2017/6/10 19:16:00.
+     1>Project "C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\BP Network\BP Network.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt src\Bayes\NaiveBayesClassifier.cpp src\Database\DataBase.cpp src\KNN\KNN_Classifier.cpp src\NN\layer\Layer.cpp src\main.cpp
+         NaiveBayesClassifier.cpp
+     1>src\Bayes\NaiveBayesClassifier.cpp(70): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\Bayes\NaiveBayesClassifier.cpp(154): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(592): warning C4503: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Insert' : decorated name length exceeded, name was truncated
+                 with
+                 [
+                     _Kty=bool
+         ,            _Ty=stdext::hash_map<std::string,stdext::hash_map<bool,double,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,double>>>,stdext::hash_compare<std::string,std::less<std::string>>,std::allocator<std::pair<const std::string,stdext::hash_map<bool,double,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,double>>>>>>
+         ,            _Tr=stdext::hash_compare<bool,std::less<bool>>
+         ,            _Alloc=std::allocator<std::pair<const bool,stdext::hash_map<std::string,stdext::hash_map<bool,double,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,double>>>,stdext::hash_compare<std::string,std::less<std::string>>,std::allocator<std::pair<const std::string,stdext::hash_map<bool,double,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,double>>>>>>>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(592): warning C4503: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Insert' : decorated name length exceeded, name was truncated
+                 with
+                 [
+                     _Kty=bool
+         ,            _Ty=stdext::hash_map<std::string,stdext::hash_map<bool,int,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,int>>>,stdext::hash_compare<std::string,std::less<std::string>>,std::allocator<std::pair<const std::string,stdext::hash_map<bool,int,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,int>>>>>>
+         ,            _Tr=stdext::hash_compare<bool,std::less<bool>>
+         ,            _Alloc=std::allocator<std::pair<const bool,stdext::hash_map<std::string,stdext::hash_map<bool,int,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,int>>>,stdext::hash_compare<std::string,std::less<std::string>>,std::allocator<std::pair<const std::string,stdext::hash_map<bool,int,stdext::hash_compare<bool,std::less<bool>>,std::allocator<std::pair<const bool,int>>>>>>>>
+                 ]
+         DataBase.cpp
+     1>src\Database\DataBase.cpp(258): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\Database\DataBase.cpp(295): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         KNN_Classifier.cpp
+     1>src\KNN\KNN_Classifier.cpp(82): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         Layer.cpp
+         main.cpp
+     1>c:\users\宫本敏\documents\visual studio 2013\projects\bp network\bp network\src\../header/NN/NetworkTrainer.h(21): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\宫本敏\documents\visual studio 2013\projects\bp network\bp network\src\../header/NN/NetworkTrainer.h(22): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\宫本敏\documents\visual studio 2013\projects\bp network\bp network\src\../header/NN/NetworkTrainer.h(32): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\x64\Release\BP Network.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\x64\Release\BP Network.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\x64\Release\BP Network.lib" /MACHINE:X64 x64\Release\DataBase.obj
+         x64\Release\KNN_Classifier.obj
+         x64\Release\main.obj
+         x64\Release\NaiveBayesClassifier.obj
+         x64\Release\Layer.obj
+         Generating code
+         Finished generating code
+         BP Network.vcxproj -> C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\x64\Release\BP Network.exe
+     1>Done Building Project "C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\BP Network\BP Network\BP Network.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.08
