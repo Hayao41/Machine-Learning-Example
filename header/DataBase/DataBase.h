@@ -32,12 +32,12 @@ private:
 	double class_threshold;
 	double age_threshold;
 	double sex_threshold;
-    std::string path;
-    std::vector<UtilNode> class_set;
-    std::vector<UtilNode> age_set;
-    std::vector<UtilNode> sex_set;
-    std::vector<Passenger> sample_set;
-    std::vector<Passenger> test_set;
+        std::string path;
+        std::vector<UtilNode> class_set;
+        std::vector<UtilNode> age_set;
+        std::vector<UtilNode> sex_set;
+        std::vector<Passenger> sample_set;
+        std::vector<Passenger> test_set;
 	std::vector<std::string> attributes_set;
 	std::hash_map<bool,int> true_cout;
 
